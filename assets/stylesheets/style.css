@@ -460,7 +460,7 @@ body .navbar .menu-btn {
   top: 10px;
   left: 10px;
   border: none;
-  background: #333332;
+  background-image: /assets/menu.jpg;
   color: white;
   width: 44px;
   height: 44px;
