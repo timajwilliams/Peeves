@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 /* line 33, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 article,
 aside,
@@ -430,6 +431,7 @@ body .sidebar ul {
 }
 /* line 75, ../sass/partials/_page.scss */
 body .sidebar ul li {
+  font-family: 'Montserrat', sans-serif;
   padding: 8px 0;
   font-weight: 400;
   font-size: 1em;
@@ -457,6 +459,7 @@ body .navbar {
 }
 /* line 101, ../sass/partials/_page.scss */
 body .navbar .menu-btn {
+  font-family: 'Montserrat', sans-serif;
   top: 10px;
   left: 10px;
   border: none;
