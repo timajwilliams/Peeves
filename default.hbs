@@ -32,14 +32,16 @@
     {{ghost_head}}
 </head>
 <body itemscope itemtype="http://schema.org/Blog" class="{{body_class}}">
-    {{! Sidebar }}
-    <aside id="sidebar" class="sidebar">
-      {{> sidebar-links}}
-    </aside>
+    
     {{! Everything else gets inserted here }}
     <div class="page-wrapper">
         <nav id="bt-menu" class="bt-menu">
 				<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+				
+				{{! Sidebar }}
+    				<aside id="sidebar" class="sidebar">
+      					{{> sidebar-links}}
+    				</aside>
         </nav>
 
             {{{body}}}
